@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="de" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="de" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="de" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="de" ng-app="app" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Philipp Bobek und Patrick Haas">
+    <meta name="description" content="Offizielle Band Website von Frage e1ns">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Frage e1ns</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <!-- Inconsolata Font -->
+    <!--<link rel="stylesheet" href="bower_components/inconsolata/css/inconsolata.css">-->
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:400,200,700' rel='stylesheet' type='text/css'>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#/home">Frage e1ns</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#/news" class="hidden-xs">News</a>
+                    <a href="#/news" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">News</a>
+                </li>
+                <li>
+                    <a href="#/band" class="hidden-xs">Band</a>
+                    <a href="#/band" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Band</a>
+                </li>
+                <li>
+                    <a href="#/music" class="hidden-xs">Music</a>
+                    <a href="#/music" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Music</a>
+                </li>
+                <li>
+                    <a href="#/live" class="hidden-xs">Live</a>
+                    <a href="#/live" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Live</a>
+                </li>
+                <li>
+                    <a href="#/media" class="hidden-xs">Medien</a>
+                    <a href="#/media" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Medien</a>
+                </li>
+                <li>
+                    <a href="#/guestbook" class="hidden-xs">Gästebuch</a>
+                    <a href="#/guestbook" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Gästebuch</a>
+                </li>
+                <li>
+                    <a href="#/contact" class="hidden-xs">Kontakt</a>
+                    <a href="#/contact" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Kontakt</a>
+                </li>
+                <li>
+                    <a href="#/shop" class="hidden-xs">Shop</a>
+                    <a href="#/shop" class="visible-xs" data-toggle="collapse" data-target=".navbar-collapse">Shop</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav> <!-- Navigation -->
+
+<!-- Content -->
+<div ng-view id="content"></div>
+
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/jquery/dist/jquery.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="app.js"></script>
+<script src="home/home.js"></script>
+<script src="news/news.js"></script>
+<script src="band/band.js"></script>
+<script src="music/music.js"></script>
+<script src="live/live.js"></script>
+<script src="media/media.js"></script>
+<script src="guestbook/guestbook.js"></script>
+<script src="contact/contact.js"></script>
+<script src="shop/shop.js"></script>
+</body>
+</html>

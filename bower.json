@@ -1,0 +1,16 @@
+{
+  "name": "frage1",
+  "description": "Frage e1ns Band Website",
+  "version": "0.0.0",
+  "homepage": "http://frage1.de",
+  "license": "No License",
+  "private": true,
+  "dependencies": {
+    "angular": "1.2.x",
+    "angular-route": "1.2.x",
+    "angular-loader": "1.2.x",
+    "jquery": "2.1.*",
+    "bootstrap": "3.3.*",
+    "inconsolata": "0.0.*"
+  }
+}

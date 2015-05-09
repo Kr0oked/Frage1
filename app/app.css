@@ -1,0 +1,135 @@
+/* Global Styles */
+
+.colors1 {
+    /* Important colours */
+    color1: #272323;
+    color1: #575151;
+    color1: #8A8780;
+    color1: #BEB9AC;
+    color1: #D7D1C3;
+}
+
+.colors2 {
+    /* Important colours */
+    color1: #4880F5;
+    color1: #6BAEF0;
+    color1: #B1D9DB;
+    color1: #DB761F;
+    color1: #A43B1C;
+}
+
+.colors3 {
+    /* Important colours */
+    navigation: #191919;
+    dark-background: #262626;
+    light-background: #3F3F3F;
+    lighter-background: #4B4B4B;
+    footer: #1C1C1C;
+
+    active-text: #FFFFFF;
+    inactive-text: #A9A9A9;
+}
+
+html,
+body {
+    height: 100%;
+    color: #FFFFFF;
+    #font-family: 'Inconsolata';
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    background-color: #262626;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+section {
+    padding: 75px 10px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #191919;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #A9A9A9;
+    text-transform: uppercase;
+}
+
+.navbar {
+
+}
+
+#content {
+    height: 100%;
+}
+
+/* Carousel */
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+header.carousel .slide1 {
+    background-image: url('img/slide1.jpg');
+}
+
+header.carousel .slide2 {
+    background-image: url('img/slide2.jpg');
+}
+
+header.carousel .slide3 {
+    background-image: url('img/slide3.jpg');
+}
+
+.embed-youtube {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+footer .footer-above {
+    padding-top: 50px;
+    color: #A9A9A9;
+    background-color: #1C1C1C;
+}
+
+footer .footer-below {
+    padding: 25px 0px;
+    color: #A9A9A9;
+    background-color: #191919;
+}
+
+footer .footer-col {
+    margin-bottom: 50px;
+}
+
+.btn-social img {
+    height: 40px;
+    width: 40px;
+    opacity: 0.3;
+}
+
+.btn-social img:hover {
+    opacity: 0.7;
+}
