@@ -34,8 +34,7 @@ html,
 body {
     height: 100%;
     color: #FFFFFF;
-    #font-family: 'Inconsolata';
-    font-family: 'Source Code Pro';
+    font-family: 'Source Code Pro', Arial, sans-serif;
     font-style: normal;
     background-color: #262626;
 }
@@ -55,6 +54,28 @@ h1 {
     text-transform: uppercase;
 }
 
+h2 {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 200;
+    margin: 0px;
+    text-transform: uppercase;
+}
+
+a {
+    color: #A9A9A9;
+}
+
+a:hover, a:active, a:visited {
+    color: #FFFFFF;
+}
+
 /* Navigation */
 .navbar {
     background-color: #191919;
@@ -63,10 +84,6 @@ h1 {
 .navbar-inverse .navbar-nav > li > a {
     color: #A9A9A9;
     text-transform: uppercase;
-}
-
-.navbar {
-
 }
 
 #content {
@@ -92,15 +109,16 @@ header.carousel .fill {
 }
 
 header.carousel .slide1 {
-    background-image: url('img/slide1.jpg');
+    background-image: url('img/slide/slide1.jpg');
 }
 
 header.carousel .slide2 {
-    background-image: url('img/slide2.jpg');
+    background-image: url('img/slide/slide2.jpg');
+    background-position: bottom;
 }
 
 header.carousel .slide3 {
-    background-image: url('img/slide3.jpg');
+    background-image: url('img/slide/slide3.jpg');
 }
 
 .embed-youtube {
@@ -124,6 +142,117 @@ footer .footer-col {
     margin-bottom: 50px;
 }
 
+.curved-edges {
+    -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.news-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.news-table td {
+    padding: 10px;
+}
+
+.news-date {
+    width: 60px;
+    height: 60px;
+    background-color: #323232;
+}
+
+.news-date p {
+    color: #A9A9A9;
+    font-weight: 400;
+    text-align: center;
+}
+
+.news-date-d {
+    margin: 0px;
+    font-size: 16px;
+}
+
+.news-date-m {
+    margin: -6px 0px -7px;
+    font-size: 15px;
+}
+
+.news-date-y {
+    margin: 3px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.news-head {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.news-head a, .news-head a:link, .news-head a:visited, .news-head a:active {
+    color: #DB761F;
+}
+
+.news-head hr {
+    border: solid #262626 1px;
+    margin: 5px -10px;
+}
+
+.news-head a:hover {
+    color: #A43B1C;
+}
+
+.news-text {
+    padding: 10px;
+    background-color: #323232;
+    font-size: 13px;
+}
+
+.news-text table {
+    width: 100%;
+}
+
+.all-news {
+    margin-right: 5px;
+}
+
+.buy {
+    display: block;
+    list-style: outside none none;
+}
+
+.buy li {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.buy a, .buy a:link, .buy a:visited, .buy a:active {
+    color: #000000;
+    text-transform: uppercase ;
+    background: #FFFFFF none repeat scroll 0% 0%;
+    border-radius: 2px;
+}
+
+.buy button {
+    width: 100px;
+}
+
+.band-camp {
+    border: 0;
+    min-width: 170px;
+    max-width: 700px;
+    width: 100%;
+    max-height:700px;
+    min-height: 362px;
+    height: 700px;
+}
+
+.ticket {
+    float: right;
+    margin-left: 15px;
+}
+
 .btn-social img {
     height: 40px;
     width: 40px;
@@ -132,4 +261,89 @@ footer .footer-col {
 
 .btn-social img:hover {
     opacity: 0.7;
+}
+
+
+.btn-social img:hover {
+    opacity: 0.7;
+}
+.band-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+.band-table td {
+    padding: 10px;
+}
+.band-text {
+    padding: 10px;
+    background-color: #323232;
+    font-size: 13px;
+}
+.band-member-aepic {
+    width: 100px;
+    height: 100px;
+    background: #323232 url('img/band/aepic.jpg') repeat center;
+}
+.band-member-aepic p {
+    color: #A9A9A9;
+    font-weight: 400;
+    text-align: center;
+}
+.band-member-tunafleur {
+    width: 100px;
+    height: 100px;
+    background: #323232 url('img/band/tuna.jpg') repeat center;
+}
+.band-member-tunafleur p {
+    color: #A9A9A9;
+    font-weight: 400;
+    text-align: center;
+}
+.band-member-sam {
+    width: 100px;
+    height: 100px;
+    background: #323232 url('img/band/sam.jpg') repeat center;
+}
+.band-member-sam p {
+    color: #A9A9A9;
+    font-weight: 400;
+    text-align: center;
+}
+.band-head {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.band-head a, .band-head a:link, .band-head a:visited, .band-head a:active {
+    color: #DB761F;
+}
+
+.band-head a:hover {
+    color: #A43B1C;
+}
+
+.mediabutton.active {
+    color: #A9A9A9;
+    background-color: #323232;
+    border-radius: 10px;
+    padding: auto;
+    border: 0px solid;
+}
+.mediabutton{
+    color: #A9A9A9;
+    background-color: #323232;
+    border-radius: 10px;
+    padding: auto;
+    border: 0px solid;
+}
+
+.image_gallery_box_container {
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.video_gallery_box_container {
+    margin-top: 50px;
+    margin-bottom: 200px;
 }

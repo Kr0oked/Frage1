@@ -8,10 +8,7 @@ angular.module('app', [
     'app.band',
     'app.music',
     'app.live',
-    'app.media',
-    'app.guestbook',
-    'app.contact',
-    'app.shop'
+    'app.media'
 ])
 .config(['$routeProvider', function($routeProvider) {
     $routeProvider.otherwise({redirectTo: '/home'});
