@@ -30,6 +30,11 @@
     inactive-text: #A9A9A9;
 }
 
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 html,
 body {
     height: 100%;
@@ -119,6 +124,7 @@ header.carousel .slide2 {
 
 header.carousel .slide3 {
     background-image: url('img/slide/slide3.jpg');
+    background-position: center;
 }
 
 .embed-youtube {
@@ -323,16 +329,16 @@ footer .footer-col {
     color: #A43B1C;
 }
 
-.mediabutton.active {
-    color: #A9A9A9;
-    background-color: #323232;
+.mediabutton {
+    color: #FFFFFF;
     border-radius: 10px;
     padding: auto;
     border: 0px solid;
 }
-.mediabutton{
-    color: #A9A9A9;
-    background-color: #323232;
+
+.mediabutton.active, .mediabutton:hover {
+    color: #000000;
+    background-color: #FFFFFF;
     border-radius: 10px;
     padding: auto;
     border: 0px solid;
